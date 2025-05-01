@@ -1,11 +1,15 @@
 def mayor(a,b):
     if a > b:
         num= a
+    else:
+        num=b
     return num
 
 def menor(a,b):
     if a > b:
         num1= b
+    else:
+        num1=a
     return num1
 
 
